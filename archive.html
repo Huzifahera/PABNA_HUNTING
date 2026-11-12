@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Pabna Haunting // Patient Archive & Cipher Vault</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <link rel="stylesheet" href="css/equipment.css">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Left Sidebar Navigation -->
+    <aside class="app-sidebar">
+      <div>
+        <a href="index.html" class="sidebar-brand">
+          <div class="brand-ghost-badge">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 2a8 8 0 0 0-8 8v11l3-2.5 3 2.5 2-1.5 2 1.5 3-2.5 3 2.5V10a8 8 0 0 0-8-8zm-2.5 8a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+            </svg>
+          </div>
+          <span class="brand-text" data-i18n="nav_title">Pabna Haunting</span>
+        </a>
+
+        <nav class="sidebar-nav">
+          <a href="index.html" class="nav-item">
+            <svg viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+            <span>Dashboard</span>
+          </a>
+
+          <a href="index.html#stories" class="nav-item">
+            <svg viewBox="0 0 24 24"><path d="M18 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 4h5v8l-2.5-1.5L6 12V4z"/></svg>
+            <span>Stories</span>
+          </a>
+
+          <a href="index.html#map" class="nav-item">
+            <svg viewBox="0 0 24 24"><path d="M20.5 3l-.16.03L15 5.1 9 3 3.36 4.9c-.21.07-.36.25-.36.48V20.5c0 .28.22.5.5.5l.16-.03L9 18.9l6 2.1 5.64-1.9c.21-.07.36-.25.36-.48V3.5c0-.28-.22-.5-.5-.5zM15 19l-6-2.11V5l6 2.11V19z"/></svg>
+            <span>Map & Locations</span>
+          </a>
+
+          <a href="archive.html" class="nav-item active">
+            <svg viewBox="0 0 24 24"><path d="M19 12h-2v3h-3v2h3v3h2v-3h3v-2h-3v-3zm-7-9C6.48 3 2 7.48 2 13s4.48 10 10 10 10-4.48 10-10S17.52 3 12 3zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/></svg>
+            <span>Puzzles & Vault</span>
+          </a>
+
+          <a href="index.html#minigame" class="nav-item">
+            <svg viewBox="0 0 24 24"><path d="M21 6H3c-1.1 0-2 .9-2 2v8c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-10 7H8v3H6v-3H3v-2h3V8h2v3h3v2zm4.5 2c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm4-3c-.83 0-1.5-.67-1.5-1.5S18.67 9 19.5 9s1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/></svg>
+            <span>Mini-Game</span>
+          </a>
+
+          <a href="surveillance.html" class="nav-item">
+            <svg viewBox="0 0 24 24"><path d="M17 10.5V7c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-3.5l4 4v-11l-4 4z"/></svg>
+            <span>Surveillance</span>
+          </a>
+
+          <a href="escape.html" class="nav-item danger-link">
+            <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg>
+            <span>Lockdown Escape</span>
+          </a>
+
+          <a href="index.html#settings" class="nav-item">
+            <svg viewBox="0 0 24 24"><path d="M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.09.63-.09.94s.02.64.07.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z"/></svg>
+            <span>Settings</span>
+          </a>
+        </nav>
+      </div>
+
+      <div class="sidebar-footer-art">
+        <svg viewBox="0 0 200 60" preserveAspectRatio="none">
+          <path d="M10 60 Q 25 20, 30 10 Q 32 30, 35 60 M25 60 Q 40 15, 50 5 Q 48 35, 55 60 M50 60 Q 65 30, 75 15 Q 73 40, 80 60 M90 60 Q 105 25, 115 10 Q 112 35, 120 60 M130 60 Q 145 15, 155 5 Q 152 35, 160 60 M165 60 Q 180 25, 190 12 Q 187 40, 195 60" stroke="rgba(157,78,221,0.4)" stroke-width="2" fill="none"/>
+        </svg>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="app-main">
+      <header class="top-header-banner">
+        <div style="width: 140px;"></div>
+        <div class="header-center-title">
+          <h1 class="brand-headline">Patient <em>Archive</em> & Ciphers</h1>
+          <div class="brand-tagline">10 Declassified Dossiers (1958–1971) • Regional Landmark Cryptography</div>
+          <div class="ornamental-line">❖</div>
+        </div>
+        <div class="header-actions">
+          <button id="btn-audio-toggle" class="icon-btn-pill active-glow" title="Toggle Sound">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02z"/>
+            </svg>
+          </button>
+          <button id="btn-lang-toggle" class="icon-btn-pill" title="Toggle Language">
+            <span style="font-size: 0.85rem; font-weight: bold;">বাং</span>
+          </button>
+        </div>
+      </header>
+
+      <!-- Search & Filters Bar -->
+      <section style="margin-bottom: 2.5rem;">
+        <div class="archive-controls-bar" style="background: rgba(22, 17, 36, 0.85); border: 1px solid var(--purple-border); border-radius: var(--radius-md);">
+          <input type="text" id="patient-search" class="horror-input" style="max-width: 440px; margin-bottom: 0;" placeholder="Search 10 patient files by name, ID, or keywords..." data-i18n="archive_search_placeholder">
+          
+          <div class="filter-pills">
+            <button class="filter-pill active" data-filter="all" data-i18n="archive_filter_all">All 10 Records</button>
+            <button class="filter-pill" data-filter="ward7" data-i18n="archive_filter_ward7">Ward 7 High-Risk</button>
+            <button class="filter-pill" data-filter="cured" data-i18n="archive_filter_cured">Deceased / Unaccounted</button>
+          </div>
+        </div>
+
+        <!-- 10 Patient Dossiers Grid -->
+        <div class="patient-grid" id="patient-grid"></div>
+      </section>
+
+      <!-- 3 Landmark Regional Ciphers -->
+      <section style="border-top: 2px solid rgba(157, 78, 221, 0.2); padding-top: 2.5rem;">
+        <div style="color: #ff3366; font-size: 0.85rem; font-weight: bold; letter-spacing: 2px; margin-bottom: 0.4rem;">
+          PABNA CRYPTOGRAPHIC RELICS
+        </div>
+        <h2 style="font-family: var(--font-serif); font-size: 1.8rem; color: #fff; margin-bottom: 0.5rem;" data-i18n="cipher_sec_title">
+          PABNA REGIONAL CRYPTOGRAPHIC RELICS
+        </h2>
+        <p style="color: #958ba8; font-size: 0.92rem; margin-bottom: 2rem; max-width: 850px;" data-i18n="cipher_sec_desc">
+          To disengage the Master Quarantine Lockdown in the Escape Portal, you must solve three cipher riddles bound to Pabna's legendary architectural landmarks:
+        </p>
+
+        <div class="cipher-grid">
+          <!-- Relic 1: Tarash Palace -->
+          <div class="cipher-card" id="card-cipher-1">
+            <span class="cipher-status-indicator locked" id="cipher-1-status">LOCKED</span>
+            <h3 style="color: #ff6584; font-family: var(--font-serif); margin-bottom: 0.5rem; font-size: 1.15rem;" data-i18n="cipher_1_title">
+              RELIC 1: TARASH PALACE ARTIFACT
+            </h3>
+            <p style="font-size: 0.84rem; color: #958ba8; margin-bottom: 0.8rem;" data-i18n="cipher_1_desc">
+              The Tarash Zamindar estate in Pabna was built with intricate European and Mughal masonry.
+            </p>
+            <div style="background: #090714; border-left: 2px solid #ff3366; padding: 0.8rem; font-size: 0.85rem; color: #ede8f7; margin-bottom: 1rem;" data-i18n="cipher_1_riddle">
+              I stand on 7 regal pillars. Count my arches twice, subtract 3, and utter the zamindar house name in uppercase followed by the result (e.g., TARASH-11). Arches = 387.
+            </div>
+            <input type="text" id="cipher-1-input" class="horror-input" placeholder="Enter Cipher Key (e.g., TARASH-###)" data-i18n="cipher_1_placeholder">
+            <button id="btn-cipher-1" class="horror-btn" data-i18n="cipher_1_btn">VERIFY TARASH CIPHER</button>
+          </div>
+
+          <!-- Relic 2: Chatmohar Shahi Mosque -->
+          <div class="cipher-card" id="card-cipher-2">
+            <span class="cipher-status-indicator locked" id="cipher-2-status">LOCKED</span>
+            <h3 style="color: #4cc9f0; font-family: var(--font-serif); margin-bottom: 0.5rem; font-size: 1.15rem;" data-i18n="cipher_2_title">
+              RELIC 2: CHATMOHAR SHAHI MOSQUE FREQUENCY
+            </h3>
+            <p style="font-size: 0.84rem; color: #958ba8; margin-bottom: 0.8rem;" data-i18n="cipher_2_desc">
+              Constructed in 1581-1582 AD by Masum Khan Kabuli. An acoustic anomaly resonates inside the three-domed sanctum.
+            </p>
+            <div style="background: #090714; border-left: 2px solid #4cc9f0; padding: 0.8rem; font-size: 0.85rem; color: #ede8f7; margin-bottom: 1rem;" data-i18n="cipher_2_riddle">
+              Multiply the Hijri foundation year (989 AH) by the number of domes (3), then divide by 3, and append the Common Era year of Masum Khan's inscription (1582). What is the sacred frequency code?
+            </div>
+            <input type="text" id="cipher-2-input" class="horror-input" placeholder="Enter Sacred Code (e.g., SHAHI-1582)" data-i18n="cipher_2_placeholder">
+            <button id="btn-cipher-2" class="horror-btn" style="background: linear-gradient(90deg, #1d3557, #4cc9f0); color: #fff;" data-i18n="cipher_2_btn">TRANSMIT FREQUENCY</button>
+          </div>
+
+          <!-- Relic 3: Hardinge Bridge -->
+          <div class="cipher-card" id="card-cipher-3">
+            <span class="cipher-status-indicator locked" id="cipher-3-status">LOCKED</span>
+            <h3 style="color: #ffb703; font-family: var(--font-serif); margin-bottom: 0.5rem; font-size: 1.15rem;" data-i18n="cipher_3_title">
+              RELIC 3: HARDINGE BRIDGE STEEL CIPHER
+            </h3>
+            <p style="font-size: 0.84rem; color: #958ba8; margin-bottom: 0.8rem;" data-i18n="cipher_3_desc">
+              In Paksey, Pabna, the mighty 16-span railway bridge spans the turbulent Padma River, opened in 1915 with over 52,000 hot-riveted steel girders.
+            </p>
+            <div style="background: #090714; border-left: 2px solid #ffb703; padding: 0.8rem; font-size: 0.85rem; color: #ede8f7; margin-bottom: 1rem;" data-i18n="cipher_3_riddle">
+              Cipher Equation: [Year Bridge Opened] + [Number of Main Steel Spans (15)] - [Total Pillars (16)] = RIVET-????
+            </div>
+            <input type="text" id="cipher-3-input" class="horror-input" placeholder="Enter Bridge Token (e.g., RIVET-1914)" data-i18n="cipher_3_placeholder">
+            <button id="btn-cipher-3" class="horror-btn" style="background: linear-gradient(90deg, #b26a00, #ffb703); color: #000;" data-i18n="cipher_3_btn">DECRYPT STEEL KEY</button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- Dossier Inspection Modal with Animated Cassette Player -->
+  <div class="modal-overlay" id="dossier-modal">
+    <div class="modal-content" style="max-width: 820px;">
+      <button class="modal-close-btn" id="btn-close-dossier">✕ CLOSE</button>
+      <div style="margin-bottom: 1rem;">
+        <h3 style="color: #c77dff; font-family: var(--font-serif); font-size: 1.4rem;">SANATORIUM PSYCHIATRIC DOSSIER</h3>
+        <p style="color: #958ba8; font-size: 0.84rem;">Clinical audio recording and physician evaluation from Hemayetpur files.</p>
+      </div>
+
+      <!-- Animated Cassette Player Widget -->
+      <div class="cassette-player-widget">
+        <div class="cassette-tape-body">
+          <div class="cassette-label">HEMAYETPUR CLINICAL RECORDINGS // 1958-1971</div>
+          <div class="cassette-window">
+            <div class="spool spool-left" id="spool-left"></div>
+            <div class="tape-bridge"></div>
+            <div class="spool spool-right" id="spool-right"></div>
+          </div>
+        </div>
+        <div class="cassette-controls">
+          <button id="btn-play-soundlog" class="btn-ui danger-ui">▶ PLAY AUDIO CASSETTE</button>
+          <span class="cassette-timer-readout" id="cassette-timer-readout">TAPE: STOPPED</span>
+        </div>
+      </div>
+
+      <div id="dossier-content" style="background: #090714; border: 1px solid var(--purple-border); padding: 1.5rem; max-height: 380px; overflow-y: auto; border-radius: 6px;"></div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/state.js"></script>
+  <script src="js/audio.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/archive.js"></script>
+  <script src="js/equipment.js"></script>
+</body>
+</html>

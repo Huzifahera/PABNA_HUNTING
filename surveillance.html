@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Pabna Haunting // CCTV Surveillance Matrix</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <link rel="stylesheet" href="css/equipment.css">
+</head>
+
+<body>
+  <div class="app-container">
+    <!-- Left Sidebar Navigation -->
+    <aside class="app-sidebar">
+      <div>
+        <a href="index.html" class="sidebar-brand">
+          <div class="brand-ghost-badge">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M12 2a8 8 0 0 0-8 8v11l3-2.5 3 2.5 2-1.5 2 1.5 3-2.5 3 2.5V10a8 8 0 0 0-8-8zm-2.5 8a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+            </svg>
+          </div>
+          <span class="brand-text" data-i18n="nav_title">Pabna Haunting</span>
+        </a>
+
+        <nav class="sidebar-nav">
+          <a href="index.html" class="nav-item">
+            <svg viewBox="0 0 24 24">
+              <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" />
+            </svg>
+            <span>Dashboard</span>
+          </a>
+
+          <a href="index.html#stories" class="nav-item">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M18 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 4h5v8l-2.5-1.5L6 12V4z" />
+            </svg>
+            <span>Stories</span>
+          </a>
+
+          <a href="index.html#map" class="nav-item">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M20.5 3l-.16.03L15 5.1 9 3 3.36 4.9c-.21.07-.36.25-.36.48V20.5c0 .28.22.5.5.5l.16-.03L9 18.9l6 2.1 5.64-1.9c.21-.07.36-.25.36-.48V3.5c0-.28-.22-.5-.5-.5zM15 19l-6-2.11V5l6 2.11V19z" />
+            </svg>
+            <span>Map & Locations</span>
+          </a>
+
+          <a href="archive.html" class="nav-item">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M19 12h-2v3h-3v2h3v3h2v-3h3v-2h-3v-3zm-7-9C6.48 3 2 7.48 2 13s4.48 10 10 10 10-4.48 10-10S17.52 3 12 3zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z" />
+            </svg>
+            <span>Puzzles & Vault</span>
+          </a>
+
+          <a href="index.html#minigame" class="nav-item">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M21 6H3c-1.1 0-2 .9-2 2v8c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-10 7H8v3H6v-3H3v-2h3V8h2v3h3v2zm4.5 2c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm4-3c-.83 0-1.5-.67-1.5-1.5S18.67 9 19.5 9s1.5.67 1.5 1.5-.67 1.5-1.5 1.5z" />
+            </svg>
+            <span>Mini-Game</span>
+          </a>
+
+          <a href="surveillance.html" class="nav-item active">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M17 10.5V7c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-3.5l4 4v-11l-4 4z" />
+            </svg>
+            <span>Surveillance</span>
+          </a>
+
+          <a href="escape.html" class="nav-item danger-link">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z" />
+            </svg>
+            <span>Lockdown Escape</span>
+          </a>
+
+          <a href="index.html#settings" class="nav-item">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.09.63-.09.94s.02.64.07.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z" />
+            </svg>
+            <span>Settings</span>
+          </a>
+        </nav>
+      </div>
+
+      <div class="sidebar-footer-art">
+        <svg viewBox="0 0 200 60" preserveAspectRatio="none">
+          <path
+            d="M10 60 Q 25 20, 30 10 Q 32 30, 35 60 M25 60 Q 40 15, 50 5 Q 48 35, 55 60 M50 60 Q 65 30, 75 15 Q 73 40, 80 60"
+            stroke="rgba(157,78,221,0.4)" stroke-width="2" fill="none" />
+        </svg>
+      </div>
+    </aside>
+
+    <!-- Main Surveillance Area -->
+    <main class="app-main">
+      <header class="top-header-banner">
+        <div style="width: 140px;"></div>
+        <div class="header-center-title">
+          <h1 class="brand-headline">The Pabna <em>Surveillance</em></h1>
+          <div class="brand-tagline">6 Live Feeds • Hemayetpur Grounds • Ichamati Riverfront</div>
+          <div class="ornamental-line">❖</div>
+        </div>
+        <div class="header-actions">
+          <button id="btn-audio-toggle" class="icon-btn-pill active-glow" title="Toggle Sound">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02z" />
+            </svg>
+          </button>
+          <button id="btn-lang-toggle" class="icon-btn-pill" title="Toggle Language">
+            <span style="font-size: 0.85rem; font-weight: bold;">বাং</span>
+          </button>
+        </div>
+      </header>
+
+      <!-- CCTV Controls Bar -->
+      <div class="cctv-controls-bar"
+        style="background: rgba(8, 22, 28, 0.85); border: 1px solid var(--teal-border); border-radius: var(--radius-md);">
+        <div style="font-size: 0.88rem; color: #ffb703;" data-i18n="cctv_warning">
+          WARNING: Extended observation of CAM-02 & CAM-04 may induce visual hallucination.
+        </div>
+        <div style="display: flex; gap: 0.6rem; flex-wrap: wrap;">
+          <button id="btn-night-vision" class="btn-ui" data-i18n="cctv_night_vision">TOGGLE NIGHT VISION</button>
+          <button id="btn-thermal" class="btn-ui" data-i18n="cctv_thermal">THERMAL SENSOR</button>
+          <button id="btn-force-glitch" class="btn-ui danger-ui" data-i18n="cctv_glitch_btn">FORCE SIGNAL
+            REFRESH</button>
+        </div>
+      </div>
+
+      <div style="margin: 1rem 0; font-size: 0.85rem; color: #958ba8;" data-i18n="cctv_clue_hint">
+        Inspect CAM-02 (Ward 7) and CAM-04 (Morgue) for etched cipher tokens and entity sightings.
+      </div>
+
+      <!-- 4-Quadrant CCTV Monitor Station (Matching Image 2) -->
+      <div class="cctv-quad-grid" id="cctv-quad-grid"></div>
+    </main>
+  </div>
+
+  <!-- CCTV Detailed Inspector Modal -->
+  <div class="modal-overlay" id="cctv-inspector-modal">
+    <div class="modal-content" style="max-width: 900px;">
+      <button class="modal-close-btn" id="btn-close-cctv-modal">✕ CLOSE</button>
+      <h3 id="modal-cam-title" style="color: #c77dff; font-family: var(--font-serif); margin-bottom: 0.5rem;">
+        CAM-02: Ward 7 Solitary Confinement
+      </h3>
+      <div
+        style="margin-bottom: 1rem; border: 2px solid #382454; background: #000; border-radius: 8px; overflow: hidden;">
+        <canvas id="modal-cctv-canvas" style="width: 100%; display: block;"></canvas>
+      </div>
+      <div style="background: #090714; border: 1px solid var(--purple-border); padding: 1rem; border-radius: 6px;">
+        <div style="font-size: 0.75rem; color: #ffb703; margin-bottom: 0.4rem;">FORENSIC SENSOR TELEMETRY:</div>
+        <pre id="modal-cam-log"
+          style="font-family: var(--font-mono); font-size: 0.82rem; color: #c77dff; white-space: pre-wrap;"></pre>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/state.js"></script>
+  <script src="js/audio.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/cctv.js"></script>
+  <script src="js/equipment.js"></script>
+</body>
+
+</html>
